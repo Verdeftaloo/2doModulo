@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+    padding: 20px;
+    background: mediumaquamarine;
+    color: black;
+}
+
+header .inicio {
+    font-size: 1. 2em;
+    font-weight: 400;
+}
+
+.wrappe-card{
+    color: aqua;
+    padding: 20px;
+    background: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 6px;
+    text-align: center;
+}
+.wrappe-card img .imagen{
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.wrappe-card{
+    color: black;
+    font-size: 14px;
+}
