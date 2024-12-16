@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.wrapper-box {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .wrapper-box {
+        background-color: #ff5722;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper-box {
+        background-color: #2196f3;
+        font-size: 16px;
+        padding: 15px;
+    }
+}
